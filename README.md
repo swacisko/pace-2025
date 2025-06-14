@@ -15,7 +15,12 @@ This repository contains code of an exact solver and a heuristic solver.
 
 CMake VERSION 3.15 or higher<br>
 c++ 20 or higher<br>
-python ortools module with CPSAT solver (use, e.g., ``python3 -m pip install -U --user ortools'')
+python ortools module with CPSAT solver (use, e.g., ``python3 -m pip install -U --user ortools'')<br>
+
+
+Please make sure that enough stack space is available (e.g. 8Mb set by default on some linux OS's might be insufficient and likely cause a runtime error).<br>
+Solvers were tested after setting the limit using ``ulimit -s 1000000'' command.
+
 
 ***
 
