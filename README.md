@@ -25,7 +25,7 @@ python ortools module with CPSAT solver (use, e.g., ``python3 -m pip install -U 
 Use cmake to obtain a binary file, e.g. in linux in the main directory (pace-2025) you can use the following commands:
 
 mkdir build<br>
-cp solveCPSAT.py build/solveCPSAT.py
+cp solveCPSAT.py build/solveCPSAT.py<br>
 cd build<br>
 cmake ..<br>
 make <br>
@@ -37,7 +37,7 @@ After this, the executable files named should be in the "build" directory.
 
 **Usage:**
 
-./solver_executable < example_input.txt > example_output.out
+./solver_executable < example_input.gr > example_output.out
 
 Heuristic solvers will be run by default for 290 seconds (possibly with some slight overhead for very large instances, needed to terminate computation and print result).
 
