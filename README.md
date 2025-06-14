@@ -30,7 +30,7 @@ cd build<br>
 cmake ..<br>
 make <br>
 <br>
-After this, the executable files named should be in the "build" directory.
+After this, the executable files should be in the "build" directory.
 
 
 ***
