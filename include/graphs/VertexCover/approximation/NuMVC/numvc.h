@@ -874,6 +874,8 @@ public:
 
         free_memory();
 
+        for(int & d : res) d--;
+
         return res;
     }
 
